@@ -15,6 +15,7 @@ function Editable(props) {
             if(props.onSubmit) props.onSubmit()
         }}>
       <input 
+        autoFocus
         type= 'text' 
         defaultValue={props.text}
         placeholder={props.placeholder || "Enter item"} 
